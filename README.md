@@ -1,0 +1,2 @@
+# lambda-generate-thumbnail
+s3にアップされた画像・PDFファイルのサムネイルを生成して指定されたs3パスに配置したのち、SNSにpublishする
