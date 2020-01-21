@@ -1,0 +1,14 @@
+{
+    "Records": [
+        {
+            "s3": {
+                "bucket": {
+                    "name": "your bucket name"
+                },
+                "object": {
+                    "key": "your test file s3 path"
+                }
+            }
+        }
+    ]
+}

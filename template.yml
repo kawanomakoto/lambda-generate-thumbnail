@@ -1,0 +1,19 @@
+Globals:
+    Function:
+        Environment:
+            Variables:
+                TOPIC_ARN_SUCCESS: ''
+                TOPIC_ARN_ERROR: ''
+                s3_endpoint: null
+                s3_region: 'ap-northeast-1'
+                sns_endpoint: null
+                sns_region: 'ap-northeast-1'
+                DEPLOY_PATH: 'your s3 backet path'
+Resources:
+    GenerateThumbnailFunction:
+        Type: AWS::Serverless::Function
+        Properties:
+            CodeUri: src
+            Handler: index.handler
+            Runtime: nodejs12.x
+            Timeout: 60

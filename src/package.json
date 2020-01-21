@@ -1,0 +1,10 @@
+{
+    "name": "generate_thumbnail",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "dependencies": {
+        "sharp": "0.23.4"
+    },
+    "scripts": {}
+}
